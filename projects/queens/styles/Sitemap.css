@@ -1,0 +1,38 @@
+@charset "utf-8";
+body
+{
+font:12pt "Calibri", "Lucida Grande", Verdana, Arial, sans-serif;
+margin:0px;
+padding:0px;
+background-color: #f4f4f4;
+line-height: 25px;
+}
+header h2{
+  margin: 0px;
+  padding: 25px 8px 0px;
+  color:#B565A7;
+}
+#main{
+  margin:auto;
+  padding: 0px;
+  width:1000px;
+  background-color: #fff;
+}
+.level0{
+  font-weight: bold;
+}
+.level1{
+  font-weight: normal;
+}
+#site_map ul li{
+ list-style: inherit;
+  display: list-item;
+}
+#site_map ul li a{
+  text-decoration: none;
+  color:#000;
+}
+#site_map ul li a:hover{
+  text-decoration: none;
+  color:#B565A7;
+}

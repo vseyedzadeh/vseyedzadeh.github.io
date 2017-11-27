@@ -1,1 +1,453 @@
-<h1>hello</h1>
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vajihe Seyedzadeh</title>
+    <meta name="description" content="Blueprint: Split Layout" />
+    <meta name="keywords" content="website template, layout, css3, transition, effect, split, dual, two sides, portfolio" />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/Project_default.css" />
+    <link rel="stylesheet" type="text/css" href="css/Project_component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    -->
+</head>
+<body>
+    <div class="container">
+        <div id="splitlayout" class="splitlayout">
+            <div class="intro">
+                <div class="side side-left">
+                    <header class="codropsheader clearfix">
+                        <!--<span>Blueprint <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+                        <h1>Split Layout</h1>-->
+                        <!--<nav>
+                            <a href="http://tympanus.net/Blueprints/OnScrollEffectLayout/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+                            <a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a
+                            <a href="http://tympanus.net/codrops/?p=16693" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+                            <a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+                        </nav>-->
+
+                        <a href="http://www.linkedin.com/in/vajihe-seyedzadeh" target="_blank" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></a>&nbsp;
+                        <a href="https://github.com/vseyedzadeh" target="_blank" class="fa fa-github fa-2x" aria-hidden="true"></a>&nbsp;
+                        <a href="https://bitbucket.org/vaji85/" target="_blank" class="fa fa-bitbucket fa-2x" aria-hidden="true"></a>&nbsp;
+
+                        <div class="intro-content2 demos">
+                            <a href="#">About me / My Resume</a>
+                            <!--<a href="#">Resume</a>-->
+                        </div>
+
+                    </header>
+                    <div class="intro-content">
+                        <div class="profile"><img src="img/profile1.jpg" alt="profile1"></div>
+                        <h1><span>Vaji Seyedzadeh </span><span>Web Developer</span></h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="side side-right">
+                    <div class="intro-content">
+                        <div class="profile"><img src="img/profile2.jpg" alt="profile2"></div>
+                        <h1><span>Projects </span><span>School Works</span></h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div><!-- /intro -->
+            <div class="page page-right">
+                <div class="page-inner">
+                    <div class="main">
+                        <div id="cbp-vm" class="cbp-vm-switcher cbp-vm-view-grid">
+                            <!--<div class="cbp-vm-options">
+                                <a href="#" class="cbp-vm-icon cbp-vm-grid cbp-vm-selected" data-view="cbp-vm-view-grid">Grid View</a>
+                                <a href="#" class="cbp-vm-icon cbp-vm-list" data-view="cbp-vm-view-list">List View</a>
+                            </div>-->
+                            <ul>
+
+                                <li>
+                                    <div class="section group">
+                                        <div class="col span_1_of_3">
+                                            <a class="cbp-vm-image" href="img/medicalClinic.png" data-lightbox="medicalClinic">
+                                                <img src="img/medicalClinic.png">
+                                            </a>
+                                            <a href="img/medicalClinic1.png" data-lightbox="medicalClinic">Doctor's available time</a>
+                                            <a href="img/medicalClinic2.png" data-lightbox="medicalClinic">Doctor's Define Schedule</a>
+                                            <a href="img/medicalClinic3.png" data-lightbox="medicalClinic">Patient's profile</a>
+                                            <a href="img/medicalClinic4.png" data-lightbox="medicalClinic">Doctor's Calendar</a>
+
+                                            <h3 class="cbp-vm-title">Medical Clinic</h3>
+                                            <div class="cbp-vm-price">project-web</div>
+
+                                        </div>
+                                        <div class="col span_2_of_3">
+                                            <b>Medical clinic</b> is a fast way for interaction between patients, clinic doctors and staff. Actually it's a website to show clinic services,
+                                            doctor’s available time and Make an appointment. Allow doctors to modify their availabilities and
+                                            Ability to see list of appointments in doctor's calendar and add note to patient's profile. Show notification for new / cancel appointments.
+                                            Ability for Online Pre-Payment by Using pay-pal.
+                                            Goal: Make a fast way for interaction between patients, clinic doctors and staff<br /><br />
+                                            Technologies: PHP, MeekroDB, slim, Javascript, Ajax, Bootstrap, My-SQL<br />
+                                            By: Vaji Seyedzadeh, Winoto Janputra
+
+
+                                        </div>
+                                        <div class="col span_3_of_3">
+                                            <a href="https://github.com/vseyedzadeh/MedicalClinic" target="_blank" class="fa fa-github-square fa-lg" data-info="Github" aria-hidden="true"></a><br />
+                                            <a href="files/MedicalClinic.pdf" target="_blank" class="fa fa-file-pdf-o fa-lg" data-info="Presentaion" aria-hidden="true"></a><br />
+                                            <a href="#" class="fa fa-file-image-o fa-lg" aria-hidden="true"></a>  <br />
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="section group">
+                                        <div class="col span_1_of_3">
+                                            <a class="cbp-vm-image" href="img/CRM.png" data-lightbox="miniCRM">
+                                                <img src="img/CRM.png">
+                                            </a>
+                                            <a href="img/CRM1.png" data-lightbox="miniCRM">My Work's Day</a>
+                                            <a href="img/CRM2.png" data-lightbox="miniCRM">Address book</a>
+                                            <a href="img/CRM3.png" data-lightbox="miniCRM">Add New Customer</a>
+                                            <a href="img/CRM4.png" data-lightbox="miniCRM">Reports- Export to excel / Print to pdf</a>
+                                           
+
+                                            <h3 class="cbp-vm-title">Mini CRM</h3>
+                                            <div class="cbp-vm-price">project-C# Dotnet</div>
+
+                                        </div>
+                                        <div class="col span_2_of_3">
+                                            <b>Mini CRM </b>to Record current customer information and potential customers. It
+                                            records every interaction between customer and sales person.
+                                            It has ability of show works day of sales serson, show reports as a data table and diagram with
+                                            ability of export in excel file and print to PDF files. Also it has one way push to Outlook when user send email or create a new schedule.
+                                            It's goal is simple: Improve business relationships and increase efficiency.<br /><br />
+                                            Technologies: C#, WPF, SQL Server, Javascritp<br />
+                                            By: Vaji Seyedzadeh, Winoto Janputra
+                                        </div>
+                                        <div class="col span_3_of_3">
+                                            <a href="https://github.com/vseyedzadeh/Mini-CRM" target="_blank" class="fa fa-github-square fa-lg" data-info="Github" aria-hidden="true"></a><br />
+                                            <a href="files/CRM_PROJECT.pdf" target="_blank" class="fa fa-file-pdf-o fa-lg" data-info="Presentaion" aria-hidden="true"></a><br />
+                                            <a href="#" class="fa fa-file-image-o fa-lg" data-info="Screen Shots" aria-hidden="true"></a>  <br />
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="section group">
+                                        <div class="col span_1_of_3">
+                                            <a class="cbp-vm-image" href="#"><img src="img/HangMan.png"></a>
+                                            <h3 class="cbp-vm-title">Game boared(Hang-Man)</h3>
+                                            <div class="cbp-vm-price">project-javascript</div>
+
+                                        </div>
+                                        <div class="col span_2_of_3">
+                                            <b>Game bored</b>has 4 diffrent games by Html, and Javascript. I worked on game Hang-Man.<br /><br />
+                                            Technologies: Javascript, Html, CSS<br />
+                                            By: Vaji Seyedzadeh, Miguel, Alex, Lucas
+
+
+
+                                        </div>
+                                        <div class="col span_3_of_3">
+                                            <a href="https://github.com/vseyedzadeh/Game-Boared" target="_blank" class="fa fa-github-square fa-lg" data-info="Github" aria-hidden="true"></a><br />
+                                            <a href="http://boared.ipd10.com" target="_blank" class="fa fa-external-link fa-lg" data-info="Website" aria-hidden="true"></a><br />
+                                            <a href="#" class="fa fa-file-image-o fa-lg" aria-hidden="true"></a>  <br />
+                                        </div>
+
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <div class="section group">
+                                        <div class="col span_1_of_3">
+                                            <a class="cbp-vm-image" href="#"><img src="img/Vegan.png"></a>
+                                            <h3 class="cbp-vm-title">Vegans-website</h3>
+                                            <div class="cbp-vm-price">Project-CSS</div>
+
+                                        </div>
+                                        <div class="col span_2_of_3">
+                                            <b>Vegan</b> website is a website for CSS cource.<br /><br />
+                                            Technologies: HTML, CSS3<br />
+                                            By: Vaji Seyedzadeh, Miguel, Mojgan, Azam
+
+                                        </div>
+                                        <div class="col span_3_of_3">
+                                            <a href="https://vaji85@bitbucket.org/vaji85/css-cource.git" class="fa fa-bitbucket fa-lg" target="_blank" data-info="Bitbucket" aria-hidden="true"></a><br />
+                                            <a href="projects/vegan/index.html" class="fa fa-external-link fa-lg" target="_blank" data-info="Online Website" aria-hidden="true"></a><br />
+                                            <a href="#" class="fa fa-file-image-o fa-lg" aria-hidden="true"></a>  <br />
+                                        </div>
+
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <div class="section group">
+                                        <div class="col span_1_of_3">
+                                            <a class="cbp-vm-image" href="#"><img src="img/Cafedipon.png"></a>
+                                            <h3 class="cbp-vm-title">Cafe Dipon</h3>
+                                            <div class="cbp-vm-price">Web-desing</div>
+
+                                        </div>
+                                        <div class="col span_2_of_3">
+                                            <b>Cafe dipon</b> is a website for webdesign cource.<br /><br />
+                                            Technologies: HTML, CSS3, Javascript, Jquery<br />
+                                            By: Vaji Seyedzadeh, Azam shirani
+
+                                        </div>
+                                        <div class="col span_3_of_3">
+                                            <a href="https://vaji85@bitbucket.org/vaji85/html-css-cource.git" target="_blank" class="fa fa-bitbucket fa-lg" data-info="Bitbucket" aria-hidden="true"></a><br />
+                                            <a href="projects/cafe-dipon/index.html" target="_blank" class="fa fa-external-link fa-lg" data-info="Online Website" aria-hidden="true"></a><br />
+                                            <a href="#" class="fa fa-file-image-o fa-lg" aria-hidden="true"></a>  <br />
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="section group">
+                                        <div class="col span_1_of_3">
+                                            <a class="cbp-vm-image" href="#"><img src="img/Queens.png"></a>
+                                            <h3 class="cbp-vm-title">Queens</h3>
+                                            <div class="cbp-vm-price">Project-HTML</div>
+
+                                        </div>
+                                        <div class="col span_2_of_3">
+                                            <b>Queen's</b> is website project for cource HTML. <br /><br />
+                                            Technologies: HTML, CSS<br />
+                                            By: Vaji seyedzadeh, Mojgan, Azam, Hana
+
+                                        </div>
+                                        <div class="col span_3_of_3">
+                                            <a href="https://vaji85@bitbucket.org/vaji85/html-css-cource.git" target="_blank" class="fa fa-bitbucket fa-lg" data-info="Bitbucket" aria-hidden="true"></a><br />
+                                            <a href="projects/queens/index.html" target="_blank" class="fa fa-external-link fa-lg" data-info="Online Website" aria-hidden="true"></a><br />
+                                            <a href="#" class="fa fa-file-image-o fa-lg" aria-hidden="true"></a>  <br />
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- /main -->
+
+
+                </div><!-- /page-inner -->
+            </div><!-- /page-right -->
+            <div class="page page-left">
+                <div class="page-inner">
+                    <section>
+                        <div><a class="fa fa-file-pdf-o" aria-hidden="true" href="files/CV-Detailed-EN.pdf" target="_blank">&nbsp;Download Resume (PDF Format)</a></div>
+                        <h1>Profile Summary</h1>
+                        <div>
+                            <ul>
+                                <li>Software Engineer with 5 years of experience as front-end developer</li>
+                                <li>
+                                    More than 5 years of experience in developing Windows & Web Applications in .NET Framework
+                                </li>
+                                <li>
+                                    More than 2 years of experience in developing front end using Web technologies
+                                </li>
+                                <li>
+                                    Experience in full Software Development Life Cycle with a focus on Agile methodologies
+                                </li>
+                                <li>
+                                    Excellent knowledge of object oriented programming, web programming & SQL Server databases
+                                </li>
+                                <li>
+                                    Quick learner who adapts easily to new processes, latest technologies, trends and excellent training skills
+                                </li>
+                                <li>
+                                    Extremely autonomous and passionate in integrating with company’s activities
+                                </li>
+                                <li>	Speaks English, French and Farsi (fluent)</li>
+                            </ul>
+                        </div>
+                        <table style="width: 90%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h1 style="text-align: justify;">Education</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 80%;" valign="top">
+
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt;"><strong>Bachelor</strong><strong><span style="font-family: 'Times New Roman',serif; mso-ascii-font-family: Calibri; mso-ansi-language: EN-CA;">&rsquo;</span></strong><strong>s degree in Software Engineering</strong></p>
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt;">Isfahan University, Isfahan, IRAN</p>
+                                    </td>
+                                    <td style="width: 30%;" valign="top">
+                                        <p class="MsoNormal" style="text-align: right;" align="right">&nbsp;</p>
+                                        <p class="MsoNormal" style="text-align: right;" align="right">2006 - 2010</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="width: 90%;" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2">
+                                        <h1>Technical Strengths &amp; Familiarities</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify;"><strong>Programming</strong></p>
+                                    </td>
+                                    <td>
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><span lang="EN-US">C#, T-SQL, Java, PHP</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Platforms</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">.NET Framework, J2EE, XAMP</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Technologies</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top"
+                                            <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">ADO.NET, Entity Framework, MeekroDB, Slim, Twig Template</p>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="168">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Tools</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="462">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">Visual Studio, Intellij Idea, NetBeans</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="168">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Microsoft Technologies</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="462">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">WPF</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="168">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Web Technologies</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="462">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">ASP.NET + MVC, Javascript, JQuery, AJAX, HTML5, CSS3</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="168">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Database</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="462">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">SQL Server</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="168">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Concepts</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="462">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">Design Patterns, Software Engineering, OOP, UML, Agile, Scrum, Unit Testing</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="168">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; "><strong>Operating Systems</strong></p>
+                                    </td>
+                                    <td style="width: 80%; padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" width="462">
+                                        <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; ">Windows, Linux</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <h1>Professional Experience</h1>
+                        <table style="width: 90%;" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 70%; border-right: none; border-bottom: none; border-left: none; border-top-width: 1pt; border-top-color: windowtext; padding: 1.45pt 0cm;" valign="top" width="390">
+                                        <p class="MsoNormal"><strong>Front-end Developer<br /> </strong><strong>Pascal Systems</strong> (<span lang="EN-US"><a href="http://www.dorsagroup.ir/"><span lang="EN-CA">http://www.dorsagroup.ir/</span></a></span>),<strong> Isfahan, IRAN</strong></p>
+                                    </td>
+                                    <td style="width: 30%; border-right: none; border-bottom: none; border-left: none; border-top-width: 1pt; border-top-color: windowtext; padding: 1.45pt 0cm;" valign="top" width="240">
+                                        <p class="MsoNormal" style="text-align: right;" align="right"><strong>January 2010 </strong><strong><span style="font-family: 'Times New Roman',serif; mso-ascii-font-family: Calibri; mso-ansi-language: EN-CA;">&ndash;</span></strong><strong> October 2015</strong></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding: 1.45pt 0cm 1.45pt 0cm;" colspan="2" valign="top" width="630">
+                                        <p class="MsoNormal"><em>Web design and development on a well known CMS portal based on ASP.NET framework.</em></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 1.45pt 0cm 1.45pt 0cm;" colspan="2" valign="top" width="630">
+                                        <h3>Responsibilities:</h3>
+                                        <ul>
+                                            <li>	Project management, design & implementation of CMS modules.</li>
+                                            <li>	Coordinate with multiple teams to improve processes and quality</li>
+
+                                        </ul>
+                                        <h3>Technical Environment:</h3>
+                                        <ul>
+
+                                            <li>.NET Framework, ASP.NET Web Forms, SQL Server 2005, HTML, CSS3, Javascript</li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <table class="MsoTableGrid" style="width: 90%;" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 1.45pt 0cm 1.45pt 0cm;" valign="top" colspan="4">
+                                        <h1 style="margin-bottom: .0001pt;">Additional Trainings</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td style="width:70%;" valign="top">
+                                        <p><strong>Internet Programming, John Abbott College, Montreal</strong></p>
+                                    </td>
+                                    <td>
+                                        <p align="right">February 2016 - December 2016</p>
+
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p><strong>French language, MIDI, Montreal</strong></p>
+                                    </td>
+                                    <td style="width:30%;" valign="top">
+                                        <p align="right">March 2017 - January 2018</p>
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </section>
+                </div><!-- /page-inner -->
+            </div><!-- /page-left -->
+            <a href="#" class="back back-right" title="back to intro">&rarr;</a>
+            <a href="#" class="back back-left" title="back to intro">&larr;</a>
+        </div><!-- /splitlayout -->
+    </div><!-- /container -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpSplitLayout.js"></script>
+    <script src="js/lightbox.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "utf-8";
+body
+{
+font:12pt "Calibri", "Lucida Grande", Verdana, Arial, sans-serif;
+margin:0px;
+padding:0px;
+background-color: #f4f4f4;
+}
+.signinform {
+  padding: 20px;
+}
+#signinform legend{
+  color:#B565A7
+}
+#signinform input{
+  border:1px solid #ccc;
+}
+#signinform p a{
+  text-decoration: none;
+  color:#6e6b6e;
+  padding: 5px;
+  font-size: 14px;
+}
+#signinform p a:hover{
+  text-decoration: none;
+  color:#B565A7;
+    padding: 5px;
+    font-size: 14px;
+}
+#signinbtn{
+    background-color: #6e6b6e; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

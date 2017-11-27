@@ -1,0 +1,274 @@
+﻿@charset "utf-8";
+body
+{
+font:12pt/16px "Calibri", "Lucida Grande", Verdana, Arial, sans-serif;
+margin:0px;
+padding:0px;
+font-size: 12px;
+background-color: #f4f4f4;
+}
+
+#social ul
+{
+	list-style-type:none;
+font-size:20px;
+height:35px;
+padding-top:3px;
+margin:auto;
+align-content:center;
+width: 200px;
+}
+#nav{
+width:100%;
+height:50px;
+background-color:#B565A7;
+font-size:35px;
+text-align:center;
+/*padding-top:8px;*/
+}
+
+#nav a{
+	color: #fff;
+text-decoration:none;
+display:block;
+width:100px;
+text-align:center;
+height: 40px;
+padding-top:10px;
+		}
+
+#nav a:hover{
+background-color: #f7f2f6;
+color:#B565A7;
+height:40px;
+padding-top:10px;
+}
+
+#nav ul
+{
+	list-style-type:none;
+font-size:20px;
+width:1024px;
+height:35px;
+/*padding-top:3px;*/
+margin:auto;
+align-content:center;
+}
+#nav li{
+	float:left;
+text-align:center;
+width:130px;
+margin-left:10px;
+height:40px;
+
+}
+#nav2 {
+    width: 100%;
+    height: 50px;
+    margin-top:1px;
+    background-color: #B565A7;
+    font-size: 35px;
+    text-align: center;
+    /*padding-top:8px;*/
+}
+
+    #nav2 a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        width: 100px;
+        text-align: center;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+        #nav2 a:hover {
+            background-color: #f7f2f6;
+            color: #B565A7;
+            height: 40px;
+            padding-top: 10px;
+        }
+
+    #nav2 ul {
+        list-style-type: none;
+        font-size: 20px;
+        width: 1024px;
+        height: 35px;
+        /*padding-top:3px;*/
+        margin: auto;
+        align-content: center;
+    }
+
+    #nav2 li {
+        float: left;
+        text-align: center;
+        width: 130px;
+        margin-left: 10px;
+        height: 40px;
+    }
+
+#main{
+	margin:auto;
+width:1000px;
+
+background-color: #fff;
+}
+
+#bar{
+	margin:auto;
+width:1000px;
+
+background-color: #fff;
+}
+#header {
+width:100%;
+background-color:white;
+font-size:24px;
+height: 35px;
+border-bottom: 2px solid #B565A7;
+}
+#header a{
+	text-decoration: none;
+	color: #666365;
+}
+#social{
+	width:50%;
+	float:left;
+}
+#social li{
+	width:35px;
+	float:left;
+}
+#quickmenu{
+	width:50%;
+	float:right;
+}
+#quickmenu li{
+	padding-right: 5px;
+	float: left;
+	color: #666365;
+}
+#quickmenu ul
+{
+	list-style-type: none;
+	    font-size: 16px;
+	    height: 35px;
+	    padding-top: 7px;
+	    margin: auto;
+	    align-content: center;
+	    width: 245px;
+	}
+
+
+#section {
+	height:70px;
+padding-bottom:60px;
+padding-top: 10px;
+background-color:white;
+text-align: center;
+}
+
+#mainslide img {
+    margin-top:1px;
+    border-top: 5px solid #B565A7;
+    border-bottom: 5px solid #B565A7;
+}
+
+#advaside{
+float: right;
+background-color: #f7f2f6;
+text-align: center;
+margin-right: 4px;
+border:1px solid #ccc; 
+border-radius: 8px;
+width: 194px;
+height: 770px;
+}
+
+#footer{
+height:80px;
+background-color:#f0f0f0;
+text-align:center;
+border-top: 5px solid #b565a7;
+margin:5px 0px 0px;
+color:#5d2d34
+}
+#footer li{
+	float:left;
+	padding: 5px;
+	color:#5d2d34;
+	font-size:12px;
+}
+#footer li a{
+	color:#5d2d34;
+	text-decoration: none;
+}
+#footer ul{
+	list-style-type:none;
+font-size:20px;
+width:1024px;
+height:35px;
+padding-top:3px;
+margin:auto;
+align-content:center;
+}
+#right_reserved{
+	color:#5d2d34;
+	font-size:11px;
+	padding-bottom: 0px;
+	margin-bottom: 0px
+}
+#right_reserved h4{
+	margin: 0px;
+}
+.lastarticle{
+	float:left;
+	width:250px;
+	padding: 5px;
+}
+#content{
+	width: 800px;
+	float: left;
+}
+.article_headers{
+		height: 40px;
+
+}
+.article_headers h3{
+	margin:0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+}
+#content h2{
+	margin-left: 5px;
+	color:#844b7a;
+}
+.lastarticle p{
+
+	text-align: justify;
+	vertical-align: top;
+}
+#last_product{
+	width: 100%;
+	height:300px;
+	/*background-color: #f7f2f6;*/
+	vertical-align: middle;
+}
+#last_product img{
+	width:230px;
+	height:160px;
+	border:4px solid #fceff9;
+	margin:5px;
+}
+#last_product div{
+	float:left;
+	width: 250px;
+}
+#last_product h3{
+	text-align: center;
+}
+#last_product h2{
+	padding: 13px 5px 0px;
+	color:#844b7a;
+}
